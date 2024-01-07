@@ -156,12 +156,160 @@ padding-top: 24px;
 
 .p8
 {
-    color: #FFF;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+background: #ed831f;
+color: #FFF;
+text-align: center;
 font-family: Inter;
 font-size: 20px;
 font-weight: 700;
-padding-left: 32px;
-padding-top: 48px;
-height: 24px;
-width: 103px;
+cursor: pointer;
+transition: all 0.5s;
+}
+button:hover
+{
+    background: rgb(255, 0, 0);
+}
+
+.gradient3
+{
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); ;
+    width: 1320px;
+height: 482px; 
+border-radius: 16px;
+margin-top: 120px;
+}
+.p10
+{
+background: #F00;
+}
+.p10:hover
+{
+    background: black;
+}
+span
+{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+}
+.p9
+{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+
+
+}
+.Text_3
+{
+    height: 168px;
+    width: 549px;
+    padding-top: 100px;
+}
+.gradient3 *
+{
+    margin: 0 auto;
+    text-align: center;
+
+}
+.Text_3>div
+{
+    padding-top: 48px;
+    height: 56px;
+    width: 167px;
+}
+.gradient4
+{
+    display: flex;
+    margin-top: 120px;
+    text-align: left;
+    justify-content: space-between;
+    height: 463px;
+}
+.p11
+{
+    color: #F00;
+padding-top: 104px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+width: 207px;
+height: 29px;
+}
+.p12
+{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+width: 328px;
+height: 60px;
+padding-top: 16px;
+}
+.p13{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    height: 128px;
+    width: 393px;
+    padding-top: 22px;
+}
+.p14
+{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+width: 126px;
+height: 58px;
+padding-top: 112px;
+
+}
+.p15
+{
+    width: 276px;
+    height: 96px;
+    padding-top: 15px;
+}
+.f4_1 ,.f4_3
+{
+    height: 463px;
+}
+.f4_3>img
+{
+    padding-top: 43px;
+}
+.Circle
+{
+    height: 433px;
+    width: 433px;
+    position: relative;
+    border-radius: 463px;
+border: 15px solid #F00;
+
+}
+.f4_2 img{
+
+    width: 364.844px;
+    height: 364.844px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 364.844px; 
+  transform: translate(-50%,-50%);
+
 }
