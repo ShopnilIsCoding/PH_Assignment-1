@@ -585,7 +585,7 @@ hr {
     text-align:center;
 }
 
-.optional_text * {
+.optional_text * { 
     margin: 0 auto;
     text-align: center;
 }
