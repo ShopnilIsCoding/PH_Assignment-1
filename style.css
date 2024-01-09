@@ -30,7 +30,7 @@
     background-size: cover;
     text-align: center;
     position: relative;
-    margin-top:50px ;
+    margin-top: 50px;
 }
 
 .gradient {
@@ -536,7 +536,7 @@ hr {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    width: 295px;
+    width: 340px;
     height: 29px;
 }
 
@@ -582,51 +582,50 @@ hr {
     color: rgba(7, 2, 17, 0.6000000238);
 
     font-family: Inter;
-    font-size:25px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 1.6;
-    max-width:1068px;
-    text-align:center;
+    max-width: 1068px;
+    text-align: center;
 }
 
-.optional_text * { 
+.optional_text * {
     margin: 0 auto;
     text-align: center;
 }
-.image_optional
-{
+
+.image_optional {
     margin-top: 64px;
     height: 662px;
     position: relative;
 }
-.imageop1
-{
+
+.imageop1 {
     height: 433px;
     display: flex;
     justify-content: right;
 }
-.fifty
-{
+
+.fifty {
     position: absolute;
     z-index: 1;
     top: 85px;
     right: 286px;
-    
-}
-.imageop2
-{
-    height: 229px;
-}
-.floor
-{
-    width: 100%;
-    height: auto; 
-}
-.box
-{
-    position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 1;
+
 }
 
+.imageop2 {
+    height: 229px;
+}
+
+.floor {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
