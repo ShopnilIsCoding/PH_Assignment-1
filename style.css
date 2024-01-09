@@ -9,7 +9,7 @@
 
 .Canvas {
     width: 1600px;
-    height: 7335px;
+    height: 6900px;
     align-items: center;
     box-sizing: border-box;
     display: flex;
@@ -461,7 +461,7 @@ span {
 footer {
     padding-top: 120px;
     background: black;
-    width: 1600px;
+    width: auto;
     margin: 0 auto;
     height: 609px;
 }
@@ -546,6 +546,7 @@ hr {
 .optional {
     height: 986px;
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .po1 {
@@ -588,4 +589,40 @@ hr {
 .optional_text * { 
     margin: 0 auto;
     text-align: center;
+}
+.image_optional
+{
+    margin-top: 64px;
+    height: 662px;
+    position: relative;
+}
+.imageop1
+{
+    height: 433px;
+    display: flex;
+    justify-content: right;
+}
+.fifty
+{
+    position: absolute;
+    z-index: 1;
+    top: 85px;
+    right: 286px;
+    
+}
+.imageop2
+{
+    height: 229px;
+}
+.floor
+{
+    width: 100%;
+    height: auto; 
+}
+.box
+{
+    position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
 }
