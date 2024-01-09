@@ -22,6 +22,7 @@
 .Container {
     width: 1320px;
     height: 600px;
+
 }
 
 #Banner {
@@ -31,6 +32,8 @@
     text-align: center;
     position: relative;
     margin-top: 50px;
+    box-shadow: 20px 20px 50px rgb(155, 125, 35);
+    border-radius: 20px;
 }
 
 .gradient {
@@ -112,7 +115,8 @@
     text-align: center;
     position: relative;
     margin-top: 120px;
-
+    box-shadow: 20px 20px 50px rgb(205, 96, 0);
+    border-radius: 20px;
 }
 
 .gradient2 {
@@ -160,7 +164,7 @@
     padding: 16px 32px;
     border-radius: 8px;
     border: none;
-    background: #ed831f;
+    background: linear-gradient(60deg, #6f09ae 0%, rgb(202, 117, 5) 100%);
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -173,7 +177,7 @@
 
 
 button:hover {
-    background: rgb(255, 0, 0);
+    background: linear-gradient(60deg, #ae5309 0%, rgb(140, 5, 202) 100%);
 }
 
 .gradient3 {
@@ -183,6 +187,8 @@ button:hover {
     height: 482px;
     border-radius: 16px;
     margin-top: 120px;
+    box-shadow: 20px 20px 50px rgb(187, 87, 79);
+    border-radius: 20px;
 }
 
 .p10 {
@@ -247,6 +253,7 @@ span {
     text-align: left;
     justify-content: space-between;
     height: 463px;
+    width: 1320px;
 }
 
 .p11 {
@@ -390,6 +397,8 @@ span {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
+    box-shadow: 20px 20px 50px rgb(198, 59, 59);
+    border-radius: 20px;
 }
 
 .News_f6 * {
